@@ -1,0 +1,21 @@
+{
+  "name": "stellar-pi-nexus",
+  "version": "1.0.0",
+  "description": "Decentralized, AI-driven, and highly scalable platform for secure, fast, and low-cost transactions",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node app.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/core": "^8.0.0",
+    "stellar-sdk": "^3.0.0",
+    "pi-sdk": "^2.0.0",
+    "elliptic": "^6.5.3",
+    "bs58": "^4.0.1",
+    "crypto-js": "^4.1.1",
+    "mathjs": "^6.2.1",
+    "tensorflow": "^2.3.0",
+    "cybersecurity-threat-detector": "^1.0.0"
+  }
+}
