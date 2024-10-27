@@ -17,7 +17,6 @@
 [![Palo Alto Networks](https://img.shields.io/badge/Palo%20Alto%20Networks-Certified-FF3D00?style=flat&logo=palo-alto-networks)](https://www.paloaltonetworks.com/)
 [![MIT Digital Currency Initiative](https://img.shields.io/badge/MIT%20Digital%20Currency%20Initiative-Certified-FF1493?style=flat&logo=mit)](https://dci.mit.edu/)
 [![ChainSafe](https://img.shields.io/badge/ChainSafe-Certified-4CAF50?style=flat&logo=chainsafe)](https://chainsafe.io/)
-[![Blockgeeks](https://img.shields.io/badge/Blockgeeks-Certified-FF9800?style=flat&logo=blockgeeks)](https://blockgeeks.com/)
 [![University of California, Berkeley](https://img.shields.io/badge/UC%20Berkeley-Certified-003B5C?style=flat&logo=university)](https://blockchain.berkeley.edu/)
 [![Civic](https://img.shields.io/badge/Civic-Certified-00BFFF?style=flat&logo=civic)](https://www.civic.com/)
 [![W3C Blockchain Community Group](https://img.shields.io/badge/W3C%20Blockchain%20Community%20Group-Certified-FF3D00?style=flat&logo=w3c)](https://www.w3.org/community/blockchain/)
