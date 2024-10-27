@@ -1,0 +1,22 @@
+// Simple anomaly detection using machine learning in Node.js
+// You can install the ml-anomaly-detection library first: npm install ml-anomaly-detection
+
+import { IsolationForest } from 'ml-anomaly-detection';
+
+const transactionData = [
+  [10, 200, 1], // sample transaction data (amount, time, type, etc.)
+  [50, 300, 2],
+  // More transaction data
+];
+
+const model = new IsolationForest();
+model.train(transactionData);
+
+const newTransaction = [100, 500, 3]; // A new incoming transaction
+const prediction = model.predict([newTransaction]);
+
+if (prediction[0] === 1) {
+  console.log('Anomalous transaction detected! Possible security threat.');
+} else {
+  console.log('Transaction looks normal.');
+}
