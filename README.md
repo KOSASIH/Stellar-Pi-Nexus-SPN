@@ -39,6 +39,15 @@
 [![Blockchain Training Alliance](https://img.shields.io/badge/Blockchain%20Training%20Alliance-Certified-0072C6?style=flat&logo=blockchain)](https://blockchaintrainingalliance.com/)
 [![CryptoCurrency Certification Consortium](https://img.shields.io/badge/CryptoCurrency%20Certification%20Consortium-Certified-FF9900?style=flat&logo=bitcoin)](https://cryptoconsortium.org/)
 
+[![CFA Institute](https://img.shields.io/badge/CFA%20Institute-Certified-FF5722?style=flat&logo=chart-line)](https://www.cfainstitute.org/)
+[![GARP](https://img.shields.io/badge/GARP%20-Financial%20Risk%20Manager%20(FRM)-0072B1?style=flat&logo=bank)](https://www.garp.org/)
+[![CFP Board](https://img.shields.io/badge/CFP%20Board-Certified%20Financial%20Planner%20(CFP)-4CAF50?style=flat&logo=money-bill-wave)](https://www.cfp.net/)
+[![IOFM](https://img.shields.io/badge/IOFM-Certified%20Accounts%20Payable%20Professional%20(CAPP)-FF9800?style=flat&logo=money-check-alt)](https://www.iofm.com/)
+[![IIF](https://img.shields.io/badge/IIF-Certification%20Programs-00BFFF?style=flat&logo=bank)](https://www.iif.com/)
+[![UCT FinTech](https://img.shields.io/badge/UCT%20FinTech%20Program-Certificate-8A2BE2?style=flat&logo=university)](https://www.getsmarter.com/products/fintech-online-short-course)
+[![Blockchain Council](https://img.shields.io/badge/Blockchain%20Council-Certified%20Blockchain%20Professional%20(CBP)-FF4500?style=flat&logo=blockchain)](https://www.blockchain-council.org/certifications/certified-blockchain-professional/)
+[![AFP](https://img.shields.io/badge/AFP-Certified%20Treasury%20Professional%20(CTP)-FF9800?style=flat&logo=bank)](https://www.afponline.org/)
+[![ICAEW](https://img.shields.io/badge/ICAEW-ACA%20Qualification-003DA5?style=flat&logo=university)](https://www.icaew.com/)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Stellar-Pi-Nexus-SPN">Stellar Pi Nexus ( SPN ) </a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
