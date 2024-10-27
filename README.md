@@ -21,7 +21,6 @@
 [![ChainSafe](https://img.shields.io/badge/ChainSafe-Certified-4CAF50?style=flat&logo=chainsafe)](https://chainsafe.io/)
 [![Blockgeeks](https://img.shields.io/badge/Blockgeeks-Certified-FF9800?style=flat&logo=blockgeeks)](https://blockgeeks.com/)
 [![University of California, Berkeley](https://img.shields.io/badge/UC%20Berkeley-Certified-003B5C?style=flat&logo=university)](https://blockchain.berkeley.edu/)
-[![Blockchain at Michigan](https://img.shields.io/badge/Blockchain%20at%20Michigan-Certified-FF5722?style=flat&logo=university)](https://blockchain.umich.edu/)
 [![Civic](https://img.shields.io/badge/Civic-Certified-00BFFF?style=flat&logo=civic)](https://www.civic.com/)
 [![W3C Blockchain Community Group](https://img.shields.io/badge/W3C%20Blockchain%20Community%20Group-Certified-FF3D00?style=flat&logo=w3c)](https://www.w3.org/community/blockchain/)
 [![Blockchain Research Lab](https://img.shields.io/badge/Blockchain%20Research%20Lab-Certified-8A2BE2?style=flat&logo=researchgate)](https://www.blockchainresearchlab.org/)
