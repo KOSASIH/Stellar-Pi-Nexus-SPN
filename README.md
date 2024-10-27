@@ -30,7 +30,6 @@
 [![Blockchain Institute of Technology](https://img.shields.io/badge/Blockchain%20Institute%20of%20Technology-Certified-2196F3?style=flat&logo=technology)](https://www.blockchaininstituteoftechnology.com/)
 [![Blockchain Academy of America](https://img.shields.io/badge/Blockchain%20Academy%20of%20America-Certified-FF5722?style=flat&logo=academy)](https://www.blockchainacademyofamerica.com/)
 [![DigiCert](https://img.shields.io/badge/DigiCert-Certified-0072B1?style=flat&logo=digicert)](https://www.digicert.com/)
-[![Blockchain Institute of Canada](https://img.shields.io/badge/Blockchain%20Institute%20of%20Canada-Certified-4CAF50?style=flat&logo=canada)](https://blockchaininstitute.ca/)
 [![Blockchain for Good](https://img.shields.io/badge/Blockchain%20for%20Good-Certified-00BFFF?style=flat&logo=blockchain)](https://blockchainforgood.org/)
 [![University of Oxford](https://img.shields.io/badge/University%20of%20Oxford-Certified-003DA5?style=flat&logo=university)](https://www.ox.ac.uk/)
 [![Stanford Blockchain](https://img.shields.io/badge/Stanford%20Blockchain-Certified-8C1515?style=flat&logo=stanford)](https://stanford.edu/)
