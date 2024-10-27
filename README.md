@@ -16,7 +16,6 @@
 [![Blockchain Academy](https://img.shields.io/badge/Blockchain%20Academy-Certified-FF9800?style=flat&logo=academy)](https://www.blockchainacademy.com/)
 [![Consensys Academy](https://img.shields.io/badge/Consensys%20Academy-Certified-6C6F72?style=flat&logo=consensys)](https://consensys.net/academy/)
 [![Palo Alto Networks](https://img.shields.io/badge/Palo%20Alto%20Networks-Certified-FF3D00?style=flat&logo=palo-alto-networks)](https://www.paloaltonetworks.com/)
-[![Blockchain Training Institute](https://img.shields.io/badge/Blockchain%20Training%20Institute-Certified-2196F3?style=flat&logo=training)](https://www.blockchaintraininginstitute.com/)
 [![MIT Digital Currency Initiative](https://img.shields.io/badge/MIT%20Digital%20Currency%20Initiative-Certified-FF1493?style=flat&logo=mit)](https://dci.mit.edu/)
 [![ChainSafe](https://img.shields.io/badge/ChainSafe-Certified-4CAF50?style=flat&logo=chainsafe)](https://chainsafe.io/)
 [![Blockgeeks](https://img.shields.io/badge/Blockgeeks-Certified-FF9800?style=flat&logo=blockgeeks)](https://blockgeeks.com/)
