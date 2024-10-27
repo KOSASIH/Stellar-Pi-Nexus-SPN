@@ -1,7 +1,6 @@
 [![Ethereum Foundation](https://img.shields.io/badge/Ethereum%20Foundation-Certified-3C3C3D?style=flat&logo=ethereum)](https://ethereum.org/en/foundation/)
 [![Hyperledger Certified](https://img.shields.io/badge/Hyperledger-Certified-FF4B00?style=flat&logo=hyperledger)](https://www.hyperledger.org/)
 [![Blockchain Training Alliance](https://img.shields.io/badge/Blockchain%20Training%20Alliance-Certified-0072C6?style=flat&logo=blockchain)](https://blockchaintrainingalliance.com/)
-[![Certified Blockchain Professional](https://img.shields.io/badge/Certified%20Blockchain%20Professional-Certified-00BFFF?style=flat&logo=certification)](https://www.certifiedblockchainprofessional.com/)
 [![IBM Blockchain](https://img.shields.io/badge/IBM%20Blockchain-Certified-0052CC?style=flat&logo=ibm)](https://www.ibm.com/blockchain)
 [![Blockchain Council](https://img.shields.io/badge/Blockchain%20Council-Certified-FF9900?style=flat&logo=blockchain)](https://www.blockchain-council.org/)
 [![Deloitte Blockchain](https://img.shields.io/badge/Deloitte%20Blockchain-Certified-007C92?style=flat&logo=deloitte)](https://www2.deloitte.com/global/en/pages/financial-services/solutions/blockchain.html)
