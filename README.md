@@ -28,6 +28,17 @@
 [![Blockchain for Social Impact Coalition](https://img.shields.io/badge/Blockchain%20for%20Social%20Impact-Certified-FF4500?style=flat&logo=blockchain)](https://www.blockchainforsocialimpact.com/)
 [![CryptoCurrency Certification Consortium (C4)](https://img.shields.io/badge/C4-Certified-FF4500?style=flat&logo=bitcoin)](https://cryptoconsortium.org/)
 [![Blockchain Institute of Technology](https://img.shields.io/badge/Blockchain%20Institute%20of%20Technology-Certified-2196F3?style=flat&logo=technology)](https://www.blockchaininstituteoftechnology.com/)
+[![Blockchain Academy of America](https://img.shields.io/badge/Blockchain%20Academy%20of%20America-Certified-FF5722?style=flat&logo=academy)](https://www.blockchainacademyofamerica.com/)
+[![DigiCert](https://img.shields.io/badge/DigiCert-Certified-0072B1?style=flat&logo=digicert)](https://www.digicert.com/)
+[![Blockchain Institute of Canada](https://img.shields.io/badge/Blockchain%20Institute%20of%20Canada-Certified-4CAF50?style=flat&logo=canada)](https://blockchaininstitute.ca/)
+[![Blockchain for Good](https://img.shields.io/badge/Blockchain%20for%20Good-Certified-00BFFF?style=flat&logo=blockchain)](https://blockchainforgood.org/)
+[![University of Oxford](https://img.shields.io/badge/University%20of%20Oxford-Certified-003DA5?style=flat&logo=university)](https://www.ox.ac.uk/)
+[![Stanford Blockchain](https://img.shields.io/badge/Stanford%20Blockchain-Certified-8C1515?style=flat&logo=stanford)](https://stanford.edu/)
+[![Blockchain at NYU](https://img.shields.io/badge/Blockchain%20at%20NYU-Certified-003DA5?style=flat&logo=university)](https://www.nyu.edu/)
+[![Blockchain Research Institute](https://img.shields.io/badge/Blockchain%20Research%20Institute-Certified-FF4500?style=flat&logo=researchgate)](https://www.blockchainresearchinstitute.org/)
+[![Blockchain Training Alliance](https://img.shields.io/badge/Blockchain%20Training%20Alliance-Certified-0072C6?style=flat&logo=blockchain)](https://blockchaintrainingalliance.com/)
+[![CryptoCurrency Certification Consortium](https://img.shields.io/badge/CryptoCurrency%20Certification%20Consortium-Certified-FF9900?style=flat&logo=bitcoin)](https://cryptoconsortium.org/)
+
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Stellar-Pi-Nexus-SPN">Stellar Pi Nexus ( SPN ) </a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
