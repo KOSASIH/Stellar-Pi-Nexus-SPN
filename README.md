@@ -18,6 +18,16 @@
 [![Palo Alto Networks](https://img.shields.io/badge/Palo%20Alto%20Networks-Certified-FF3D00?style=flat&logo=palo-alto-networks)](https://www.paloaltonetworks.com/)
 [![Blockchain Training Institute](https://img.shields.io/badge/Blockchain%20Training%20Institute-Certified-2196F3?style=flat&logo=training)](https://www.blockchaintraininginstitute.com/)
 [![MIT Digital Currency Initiative](https://img.shields.io/badge/MIT%20Digital%20Currency%20Initiative-Certified-FF1493?style=flat&logo=mit)](https://dci.mit.edu/)
+[![ChainSafe](https://img.shields.io/badge/ChainSafe-Certified-4CAF50?style=flat&logo=chainsafe)](https://chainsafe.io/)
+[![Blockgeeks](https://img.shields.io/badge/Blockgeeks-Certified-FF9800?style=flat&logo=blockgeeks)](https://blockgeeks.com/)
+[![University of California, Berkeley](https://img.shields.io/badge/UC%20Berkeley-Certified-003B5C?style=flat&logo=university)](https://blockchain.berkeley.edu/)
+[![Blockchain at Michigan](https://img.shields.io/badge/Blockchain%20at%20Michigan-Certified-FF5722?style=flat&logo=university)](https://blockchain.umich.edu/)
+[![Civic](https://img.shields.io/badge/Civic-Certified-00BFFF?style=flat&logo=civic)](https://www.civic.com/)
+[![W3C Blockchain Community Group](https://img.shields.io/badge/W3C%20Blockchain%20Community%20Group-Certified-FF3D00?style=flat&logo=w3c)](https://www.w3.org/community/blockchain/)
+[![Blockchain Research Lab](https://img.shields.io/badge/Blockchain%20Research%20Lab-Certified-8A2BE2?style=flat&logo=researchgate)](https://www.blockchainresearchlab.org/)
+[![Blockchain for Social Impact Coalition](https://img.shields.io/badge/Blockchain%20for%20Social%20Impact-Certified-FF4500?style=flat&logo=blockchain)](https://www.blockchainforsocialimpact.com/)
+[![CryptoCurrency Certification Consortium (C4)](https://img.shields.io/badge/C4-Certified-FF4500?style=flat&logo=bitcoin)](https://cryptoconsortium.org/)
+[![Blockchain Institute of Technology](https://img.shields.io/badge/Blockchain%20Institute%20of%20Technology-Certified-2196F3?style=flat&logo=technology)](https://www.blockchaininstituteoftechnology.com/)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Stellar-Pi-Nexus-SPN">Stellar Pi Nexus ( SPN ) </a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
