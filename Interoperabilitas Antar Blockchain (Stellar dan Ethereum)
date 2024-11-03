@@ -1,0 +1,61 @@
+# Install dependencies
+npm install web3 stellar-sdk
+
+
+lalu lakukan
+import Web3 from 'web3';
+import { Keypair, Server, TransactionBuilder, Networks, Operation, Asset } from 'stellar-sdk';
+
+// Set up Stellar and Ethereum
+const server = new Server('https://horizon-testnet.stellar.org');
+const web3 = new Web3('https://ropsten.infura.io/v3/YOUR_INFURA_PROJECT_ID');
+
+// Stellar transaction setup
+async function createStellarToEthereumSwap(stellarSecret: string, ethPrivateKey: string, ethRecipient: string, amount: string) {
+  const stellarKeypair = Keypair.fromSecret(stellarSecret);
+  const stellarPublic = stellarKeypair.publicKey();
+  
+  // Load Stellar account
+  const stellarAccount = await server.loadAccount(stellarPublic);
+  
+  const stellarTransaction = new TransactionBuilder(stellarAccount, {
+    fee: await server.fetchBaseFee(),
+    networkPassphrase: Networks.TESTNET
+  })
+    .addOperation(Operation.payment({
+      destination: 'Destination Stellar Address',  // Temporary locking account on Stellar
+      asset: Asset.native(),
+      amount: amount
+    }))
+    .setTimeout(30)
+    .build();
+
+  stellarTransaction.sign(stellarKeypair);
+  
+  try {
+    const stellarResult = await server.submitTransaction(stellarTransaction);
+    console.log('Stellar transaction successful', stellarResult);
+    
+    // After Stellar transaction, initiate Ethereum transaction
+    const ethTransaction = {
+      to: ethRecipient,
+      value: web3.utils.toWei(amount, 'ether'),
+      gas: 21000
+    };
+    
+    const signedTransaction = await web3.eth.accounts.signTransaction(ethTransaction, ethPrivateKey);
+    
+    const ethReceipt = await web3.eth.sendSignedTransaction(signedTransaction.rawTransaction as string);
+    console.log('Ethereum transaction successful', ethReceipt);
+    
+  } catch (error) {
+    console.error('Cross-chain transaction failed', error);
+  }
+}
+
+// Example usage
+const stellarSecret = 'YourStellarSecretKey';
+const ethPrivateKey = 'YourEthereumPrivateKey';
+const ethRecipient = 'RecipientEthereumAddress';
+const amount = '1'; // Amount to swap
+createStellarToEthereumSwap(stellarSecret, ethPrivateKey, ethRecipient, amount);

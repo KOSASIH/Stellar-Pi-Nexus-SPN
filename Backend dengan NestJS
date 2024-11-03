@@ -1,0 +1,40 @@
+// Install dependencies: npm install @nestjs/core @nestjs/common @nestjs/platform-express
+import { Module, Injectable, Controller, Post, Body } from '@nestjs/common';
+import { createStellarTransaction } from './stellar-service'; // Import Stellar function
+
+// Service for handling transactions
+@Injectable()
+export class TransactionService {
+  async handleTransaction(sourceSecret: string, destinationPublic: string, amount: string) {
+    return await createStellarTransaction(sourceSecret, destinationPublic, amount);
+  }
+}
+
+// Controller
+@Controller('transactions')
+export class TransactionController {
+  constructor(private readonly transactionService: TransactionService) {}
+
+  @Post()
+  async create(@Body() body: { sourceSecret: string; destinationPublic: string; amount: string }) {
+    const { sourceSecret, destinationPublic, amount } = body;
+    return await this.transactionService.handleTransaction(sourceSecret, destinationPublic, amount);
+  }
+}
+
+// App Module
+@Module({
+  controllers: [TransactionController],
+  providers: [TransactionService],
+})
+export class AppModule {}
+
+// Main entry point
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module';
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule);
+  await app.listen(3000);
+}
+bootstrap();
