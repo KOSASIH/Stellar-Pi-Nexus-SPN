@@ -1,0 +1,24 @@
+Kode ini akan menggunakan struktur modular dengan layanan khusus untuk penanganan transaksi Stellar, penyimpanan rahasia, dan pemantauan. Pastikan stellar-sdk dan pustaka enkripsi yang diperlukan terpasang.
+Layanan Transaksi Stellar dengan Multi-Signature:
+
+Fungsi createTransaction mengimplementasikan transaksi multi-signature dengan menandatangani transaksi menggunakan lebih dari satu kunci pribadi (jika disediakan).
+
+Data kunci pribadi dienkripsi dengan algoritma AES untuk keamanan.
+
+
+
+2. Enkripsi Data:
+
+encryptData dan decryptData mengenkripsi dan mendekripsi kunci pribadi pengguna sebelum disimpan atau digunakan, meningkatkan keamanan.
+
+
+
+3. Pemantauan Transaksi:
+
+monitorTransaction memonitor transaksi di jaringan Stellar, dan watchTransaction di dalam TransactionMonitor akan mengawasi status transaksi secara real-time.
+
+
+
+4. Controller:
+
+Mengatur rute API untuk pembuatan dan pemantauan transaksi, dengan enkripsi kunci pribadi sebelum transaksi dikirim ke jaringan Stellar.
