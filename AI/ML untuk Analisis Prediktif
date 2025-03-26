@@ -1,0 +1,29 @@
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+import numpy as np
+
+# Simulasi data transaksi untuk pembelajaran mesin
+data_transaksi = np.random.rand(1000, 10)  # 1000 data transaksi, masing-masing dengan 10 fitur
+label_transaksi = np.random.randint(2, size=(1000, 1))  # Label 0 atau 1 untuk klasifikasi
+
+# Membangun model pembelajaran mesin
+model = Sequential([
+    Dense(64, input_dim=10, activation='relu'),  # 10 input fitur
+    Dense(32, activation='relu'),
+    Dense(1, activation='sigmoid')  # Keluaran 1 untuk klasifikasi biner
+])
+
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+
+# Melatih model
+model.fit(data_transaksi, label_transaksi, epochs=10, batch_size=32)
+
+# Prediksi berdasarkan data baru
+data_baru = np.random.rand(1, 10)  # Data transaksi baru
+prediksi = model.predict(data_baru)
+
+if prediksi > 0.5:
+    print("Transaksi dicurigai sebagai ancaman")
+else:
+    print("Transaksi aman")
