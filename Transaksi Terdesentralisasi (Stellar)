@@ -1,0 +1,41 @@
+// Install Stellar SDK first: npm install stellar-sdk
+import { Keypair, Server, TransactionBuilder, Networks, Operation, Asset } from 'stellar-sdk';
+
+// Setting up the Stellar Network connection
+const server = new Server('https://horizon-testnet.stellar.org');
+
+// Function to create a Stellar transaction
+async function createStellarTransaction(sourceSecret: string, destinationPublic: string, amount: string) {
+  const sourceKeypair = Keypair.fromSecret(sourceSecret);
+  const sourcePublic = sourceKeypair.publicKey();
+  
+  // Load account details for the source
+  const account = await server.loadAccount(sourcePublic);
+  
+  const transaction = new TransactionBuilder(account, {
+    fee: await server.fetchBaseFee(),
+    networkPassphrase: Networks.TESTNET
+  })
+    .addOperation(Operation.payment({
+      destination: destinationPublic,
+      asset: Asset.native(),
+      amount: amount
+    }))
+    .setTimeout(30)
+    .build();
+  
+  transaction.sign(sourceKeypair);
+  
+  try {
+    const transactionResult = await server.submitTransaction(transaction);
+    console.log('Transaction successful', transactionResult);
+  } catch (error) {
+    console.error('Transaction failed', error);
+  }
+}
+
+// Example of how to use the function
+const sourceSecret = 'YourStellarSecretKey';
+const destinationPublic = 'DestinationPublicKey';
+const amount = '10'; // Amount of Lumens to send
+createStellarTransaction(sourceSecret, destinationPublic, amount);
